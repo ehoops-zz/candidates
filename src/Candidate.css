@@ -1,0 +1,41 @@
+.candidateRow {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+  width: 90%;
+  line-height: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name {
+  width: 20%;
+}
+
+.status {
+  width: 20%;
+  text-transform: capitalize;
+}
+
+.applicationDate {
+  width: 15%;
+}
+
+.action {
+  width: 15%;
+}
+
+.location {
+  width: 15%;
+  text-transform: capitalize;
+}
+
+.need {
+  width: 15%;
+}
+
+.ellipses {
+  width: 5%;
+}
