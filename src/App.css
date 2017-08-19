@@ -14,13 +14,15 @@
 .labels {
   display: flex;
   flex-direction: row;
+  align-items: flex-end;
   justify-content: space-between;
   height: 40px;
   width: 90%;
   padding-left: 10px;
   padding-right: 10px;
 
-  font: 11px arial, sans-serif
+  font: 11px arial, sans-serif;
+  color: #808080;
 }
 
 .l_name {

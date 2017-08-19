@@ -22,6 +22,8 @@
   border-radius: 5px;
   background-color: white;
   z-index: 1;
+
+  text-transform: capitalize;
 }
 
 .show {
@@ -29,8 +31,27 @@
 
 }
 
-.name {
+.picture {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.personal {
   width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+  height: 30%;
+}
+.email {
+  display: flex;
+  align-items: center;
+  height: 30%;
 }
 .status {
   width: 20%;

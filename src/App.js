@@ -35,7 +35,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(data);
     let candidateList = data.map((c, ind) => {
       return (
         <Candidate key={`candidate${ind}`}
