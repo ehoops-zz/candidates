@@ -10,32 +10,45 @@
   padding-right: 10px;
 }
 
+.overlay {
+  display:none;
+  position: absolute;
+  padding: 20px;
+  margin-top: -10%;
+  right: 20%;
+  height: 30%;
+  width: 20%;
+  border: solid 2px black;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 1;
+}
+
+.show {
+  display: block;
+
+}
+
 .name {
   width: 20%;
 }
-
 .status {
   width: 20%;
   text-transform: capitalize;
 }
-
 .applicationDate {
   width: 15%;
 }
-
 .action {
   width: 15%;
 }
-
 .location {
   width: 15%;
   text-transform: capitalize;
 }
-
 .need {
   width: 15%;
 }
-
 .ellipses {
   width: 5%;
 }
